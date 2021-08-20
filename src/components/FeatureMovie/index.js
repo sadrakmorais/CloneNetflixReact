@@ -24,11 +24,11 @@ export default ({item}) =>{
          <div className="featured-seasons">{item.number_of_seasons} Temporada{item.number_of_seasons > 1 ? 's':''}</div>
          <div className="featured-description">{item.overview}</div>
          <div className="featured-buttons">
-           <a href={`/watch/${item.id}`}> ▶ Assistir</a>
-           <a href={`/mylist/add/${item.id}`}>+ Minha lista</a>
+           <a className="btn-assistir" href={`/watch/${item.id}`}> ▶ Assistir</a>
+           <a className="btn-list" href={`/mylist/add/${item.id}`}>+ Minha lista</a>
          </div>
-         <div className="featured-genres"><strong>Gêneros:</strong> {genres.join(', ')} </div>
        </div>
+       <div className="featured-genres"><strong>Gêneros:</strong> {genres.join(', ')} </div>
      </div>
      </div>
     </section>
