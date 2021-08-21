@@ -36,12 +36,29 @@ footer {
 .sociais a:hover > svg {
   opacity: 0.7;
 }
+
+footer {
+  text-align: center;
+  padding-bottom: 15px;
+}
 .creditos {
   margin-top: 15px;
-  padding: 15px;
 }
 .creditos a {
   text-decoration: none;
   font-weight: bold;
   color: #46d369;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
