@@ -1,3 +1,28 @@
+
+Clone da interface da Netflix utilizando React
+
+![dddd](https://user-images.githubusercontent.com/71346403/130330795-a8fbcc79-2653-452f-b27f-750a84302300.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
