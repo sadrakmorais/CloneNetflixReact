@@ -9,9 +9,6 @@
   overflow-x: hidden;
   padding-left: 30px;
 }
-.movieRow-list {
-  width: 99999px;
-}
 .movieRow-item {
   display: inline-block;
   width: 150px;
@@ -31,4 +28,23 @@
   position: absolute;
   width: 40px;
   height: 225px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+}
+.movieRow-left {
+  left: 0;
+}
+.movieRow-right {
+  right: 0;
+}
+.movieRow:hover .movieRow-right,
+.movieRow:hover .movieRow-left {
+  opacity: 1;
+  transition: all ease 0.5s;
 }
